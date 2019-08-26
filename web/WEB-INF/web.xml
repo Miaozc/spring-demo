@@ -7,7 +7,7 @@
     <display-name>Miaozc Spring MVC Demo Web Application</display-name>
     <servlet>
         <servlet-name>mzcmvc</servlet-name>
-        <servlet-class>com.mzc.wiki.demo.simulation.formework.web.servlet.MzcDispatcherServlet</servlet-class>
+        <servlet-class>com.mzc.wiki.demo.simulation.framework.web.servlet.MzcDispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:application.properties</param-value>

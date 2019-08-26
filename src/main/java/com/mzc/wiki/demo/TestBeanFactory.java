@@ -1,7 +1,7 @@
 package com.mzc.wiki.demo;
 
 import com.mzc.wiki.demo.simulation.demo.controller.MyAction;
-import com.mzc.wiki.demo.simulation.formework.context.MzcApplicationContext;
+import com.mzc.wiki.demo.simulation.framework.context.MzcApplicationContext;
 
 /**
  * Created by miaozc on 2019-8-26.

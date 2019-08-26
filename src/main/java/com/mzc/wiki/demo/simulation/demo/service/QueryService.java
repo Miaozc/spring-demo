@@ -1,6 +1,6 @@
 package com.mzc.wiki.demo.simulation.demo.service;
 
-import com.mzc.wiki.demo.simulation.formework.annotation.MzcService;
+import com.mzc.wiki.demo.simulation.framework.annotation.MzcService;
 import lombok.extern.slf4j.Slf4j;
 
 import java.text.SimpleDateFormat;

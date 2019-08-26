@@ -1,6 +1,6 @@
 package com.mzc.wiki.demo.simulation.demo.service;
 
-import com.mzc.wiki.demo.simulation.formework.annotation.MzcService;
+import com.mzc.wiki.demo.simulation.framework.annotation.MzcService;
 
 /**
  * Created by miaozc on 2019-8-26.
@@ -10,8 +10,9 @@ public class ModifyService implements IModifyService {
     /**
      * 增加
      */
-    public String add(String name,String addr) {
-        return "modifyService add,name=" + name + ",addr=" + addr;
+    public String add(String name,String addr) throws Exception{
+        throw new Exception("故意抛出异常，测试切面通知是否生效");
+
     }
     /**
      * 修改

@@ -1,11 +1,11 @@
 package com.mzc.wiki.demo.simulation.demo.controller;
 
 import com.mzc.wiki.demo.simulation.demo.service.IQueryService;
-import com.mzc.wiki.demo.simulation.formework.annotation.MzcAutowired;
-import com.mzc.wiki.demo.simulation.formework.annotation.MzcController;
-import com.mzc.wiki.demo.simulation.formework.annotation.MzcRequestMapping;
-import com.mzc.wiki.demo.simulation.formework.annotation.MzcRequestParam;
-import com.mzc.wiki.demo.simulation.formework.web.servlet.MzcModelAndView;
+import com.mzc.wiki.demo.simulation.framework.annotation.MzcAutowired;
+import com.mzc.wiki.demo.simulation.framework.annotation.MzcController;
+import com.mzc.wiki.demo.simulation.framework.annotation.MzcRequestMapping;
+import com.mzc.wiki.demo.simulation.framework.annotation.MzcRequestParam;
+import com.mzc.wiki.demo.simulation.framework.web.servlet.MzcModelAndView;
 
 import java.util.HashMap;
 import java.util.Map;
